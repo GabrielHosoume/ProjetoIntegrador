@@ -1,7 +1,3 @@
-/* Code Written by Rishi Tiwari
- *  Website:- https://tricksumo.com
-*/
-
 
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
