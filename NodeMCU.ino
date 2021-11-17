@@ -6,7 +6,7 @@
 // Define a URL do HOST
 #define HOST "univesppi.000webhostapp.com"    
 #define WIFI_SSID "GTH"                               
-#define WIFI_PASSWORD "yamaha2020"
+#define WIFI_PASSWORD ""
 
 
 // Variáveis que serão enviadas ao servidor
