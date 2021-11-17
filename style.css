@@ -1,0 +1,196 @@
+/*Import fonts from Google APIs*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    background-color: #f9f9f9;  
+
+}
+
+.back{
+    height: 35px;
+    width: 35px;
+    background: #555;
+    border-radius: 50px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.09);
+    margin-top: 20px;
+    margin-left: 20px;
+    position:absolute;    
+}
+
+.back i{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 550;
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+.wrapper{
+    height: 600px;
+    width: 90%;
+    margin: auto;
+    background: #f9f9f9;
+
+}
+
+.wrapper-type1{
+    height: 70px;
+    width: 100%;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.h1-title{
+    text-align: center;
+    margin-top: 10px;
+} 
+
+.detail{
+    height: 50px;
+    width: 100%;
+    background: #f9f9f9;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.detail h3{
+    color: #555;
+
+}
+.ampere{
+    height: 150px;
+    width: 30%;
+    background: #06d6a0;
+    text-align: center;
+    float: left;
+    border-radius: 15px;
+    position: absolute;
+}
+
+.ampere h3{
+    color: #555;
+}
+
+
+.voltage{
+    height: 150px;
+    width: 30%;
+    background: #118ab2;
+    text-align: center;
+    float: left;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 31.5%;
+}
+
+.voltage h3{
+    color: #555;
+}
+
+.potencia{
+    height: 150px;
+    width: 30%;
+    background: #f1ea83;
+    text-align: center;
+    float: right;
+    position: absolute;
+    margin-left: 63%;
+    border-radius: 15px;
+    
+}
+
+.potencia h3{
+    color: #555;
+}
+
+
+.info{
+    height: 100px;
+    width: 90%;
+    background: #fff;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 1px #c9c9c9 solid;
+
+}
+
+
+.info h1{
+    font-size: 300%;
+    color: #555;
+    margin-top: 10px;
+}
+
+
+.dados-monitor {
+    height: 50px;
+    width: 100%;
+    background: #f9f9f9;
+    margin-top: 15%;
+}
+
+.kWh-preco{
+    height: 25px;
+    width: 170px;
+    background: #8bbbce;
+    margin-top:1%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+.kWh-txt{
+    margin-top: 15px;
+}
+
+
+.kWh{
+    height: 150px;
+    width: 30%;
+    background: #f38237;
+    text-align: center;
+    float: left;
+    border-radius: 15px;
+    margin-top: 3%;
+    
+}
+
+.kWh h3{
+    color: #555;
+}
+
+.kWh h1{
+    font-size: 300%;
+}
+
+
+.consumo{
+    height: 150px;
+    width: 30%;
+    background: #f34337;
+    text-align: center;
+    float: left;
+    border-radius: 15px;
+    margin-top: 3%;
+    margin-left: 60px;
+    
+}
+
+.consumo h3{
+    color: #555;
+}
+
+.consumo h1{
+    font-size: 300%;
+}

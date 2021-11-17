@@ -1,0 +1,9 @@
+Site no 000webhostapp:
+login: univesppi.000webhostapp.com
+senha: CuX1(N@q@RktsWQFmd55
+
+Bando de dados:
+Database name: id17948051_esp8266
+Database username: id17948051_pi_esp8266
+Senha: e3|&5OCSW)5s55&O
+
